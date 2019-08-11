@@ -1,0 +1,12 @@
+[ 2019-08-04T19:07:34+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.016602s ] mysql:host=127.0.0.1;dbname=ky_you;charset=utf8
+[ 2019-08-04T19:07:34+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'src' [ RunTime:0.015626s ]
+[ 2019-08-04T19:07:34+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_src' [ RunTime:0.007813s ]
+[ 2019-08-04T19:07:34+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'ky_you' AND table_name = 'fa_src' ORDER BY ORDINAL_POSITION [ RunTime:0.000976s ]
+[ 2019-08-04T19:07:41+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002930s ] mysql:host=127.0.0.1;dbname=ky_you;charset=utf8
+[ 2019-08-04T19:07:41+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'detail' [ RunTime:0.024415s ]
+[ 2019-08-04T19:07:41+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_detail' [ RunTime:0.005860s ]
+[ 2019-08-04T19:07:41+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'ky_you' AND table_name = 'fa_detail' ORDER BY ORDINAL_POSITION [ RunTime:0.001954s ]
+[ 2019-08-04T19:10:14+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=ky_you;charset=utf8
+[ 2019-08-04T19:10:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'detail' [ RunTime:0.002930s ]
+[ 2019-08-04T19:10:14+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_detail' [ RunTime:0.015625s ]
+[ 2019-08-04T19:10:14+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'ky_you' AND table_name = 'fa_detail' ORDER BY ORDINAL_POSITION [ RunTime:0.000977s ]
